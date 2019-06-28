@@ -1,0 +1,316 @@
+;
+; point64.inf
+;
+; Microsoft IntelliPoint Inf
+;
+; (c) Copyright 1983-2010 Microsoft
+;
+
+[Version]
+pnplockdown=1
+CatalogFile.NT=point64.cat
+Signature="$Windows NT$"
+Class=Mouse
+ClassGUID={4D36E96F-E325-11CE-BFC1-08002BE10318}
+Provider=%Provider%
+DriverVer=05/18/2011, 8.20.409.0
+
+
+[SourceDisksNames]
+52=%IPOINTCD%
+
+[SourceDisksFiles]
+point64.sys = 52
+wdfcoinstaller01009.dll=52
+
+[DestinationDirs]
+DefaultDestDir   = 12
+Point64_CoInstaller_CopyFiles = 11
+
+[Manufacturer]
+%Microsoft%  = MsMfg, NTamd64
+
+[MsMfg.NTamd64]
+%HID\Vid_045E&Pid_0009.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_0009
+%HID\Vid_045E&Pid_0023.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_0023
+%HID\Vid_045E&Pid_0024.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_0024
+%HID\Vid_045E&Pid_0039.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_0039
+%HID\Vid_045E&Pid_0040.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_0040
+%HID\Vid_045E&Pid_0047.DeviceDesc%=HID_Filtr_Inst_NoScrollSet, HID\Vid_045E&Pid_0047
+%HID\Vid_045E&Pid_0053.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_0053
+
+%HID\Vid_045E&Pid_007D.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_007D
+
+%HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0001045e_PID&007c&Col01.DeviceDesc%=HID_Filtr_Inst,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0001045e_PID&007c&Col01
+
+%HID\Vid_045E&Pid_0083.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_0083
+%HID\Vid_045E&Pid_0084.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_0084
+%HID\Vid_045E&Pid_00CB.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_00CB
+
+%HID\Vid_045E&Pid_008A.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_008A&Mi_01&Col01
+%HID\Vid_045E&Pid_008B.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_008B&Mi_01&Col01
+%HID\Vid_045E&Pid_008C.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_008C&Col01
+
+%HID\VID_045E&PID_0095.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_0095&Col01
+
+%HID\vid_045e&pid_0098&Col01.DeviceDesc%=HID_Filtr_Inst,HID\vid_045e&pid_0098&Col01			; HWID of device in BT mode on Toshiba BT stack
+%HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0098&Col01.DeviceDesc%=HID_Filtr_Inst,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0098&Col01
+
+%HID\Vid_045E&Pid_009D.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_009D&Mi_01&Col02
+%HID\Vid_045E&Pid_009E.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_009E&Mi_01&Col02
+%HID\Vid_045E&Pid_009F.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_009F&Col02
+
+%HID\Vid_045E&Pid_00A4.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_00A4
+
+%HID\Vid_045E&Pid_00B8.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_00B8
+
+%HID\Vid_045E&Pid_00B9.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_00B9&Col02
+
+%HID\Vid_045E&Pid_00D1.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_00D1&Col02
+%HID\Vid_045E&Pid_00D2.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_00D2&Col02
+
+%HID\Vid_045E&Pid_00E1.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_00E1&Col02
+
+%HID\Vid_045E&Pid_00E3.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_00E3&Mi_01&Col02
+%HID\Vid_045E&Pid_00E4.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_00E4&Mi_01&Col02
+%HID\Vid_045E&Pid_00E5.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_00E5&Col02
+
+%HID\Vid_045E&Pid_00F0.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_00F0
+
+%HID\Vid_045E&Pid_00F1.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_00F1&Mi_01&Col02
+%HID\Vid_045E&Pid_00F2.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_00F2&Mi_01&Col02
+
+%HID\Vid_045E&Pid_00F6.DeviceDesc%=HID_Filtr_Inst_NoScrollSet, HID\Vid_045E&Pid_00F6
+
+%HID\Vid_045E&Pid_00F9.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_00F9&Mi_01&Col02
+%HID\Vid_045E&Pid_00FA.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_00FA&Mi_01&Col02
+
+%HID\vid_045e&PID_0701&Col02.DeviceDesc%=HID_Filtr_Inst,HID\vid_045e&PID_0701&Col02			; HWID of device in BT mode on Toshiba BT stack
+%HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0701&Col02.DeviceDesc%=HID_Filtr_Inst,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0701&Col02
+%HID\Vid_045E&Pid_0713.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_0713&Col02
+
+%HID\vid_045e&pid_0702&Col02.DeviceDesc%=HID_Filtr_Inst,HID\vid_045e&pid_0702&Col02			; HWID of device in BT mode on Toshiba BT stack
+%HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0702&Col02.DeviceDesc%=HID_Filtr_Inst,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0702&Col02
+%HID\Vid_045E&Pid_0714.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_0714&Col02
+
+%HID\Vid_045E&Pid_071D.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_071D&Mi_01&Col02
+%HID\Vid_045E&Pid_071E.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_071E&Mi_01&Col02
+
+%HID\Vid_045E&Pid_071F.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_071F&Col02
+
+%HID\VID_045E&PID_0724.DeviceDesc%=HID_Filtr_Inst, HID\VID_045E&PID_0724&Col01
+
+%HID\vid_045e&pid_0726&Col02.DeviceDesc%=HID_Filtr_Inst,HID\vid_045e&pid_0726&Col02			; HWID of device in BT mode on Toshiba BT stack
+%HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0726&Col02.DeviceDesc%=HID_Filtr_Inst,HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0726&Col02
+%HID\Vid_045E&Pid_0727.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_0727&Col02
+
+%HID\VID_045E&PID_0736.DeviceDesc%=HID_Filtr_Inst, HID\VID_045E&PID_0736&Col01
+
+%HID\Vid_045E&Pid_0737.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_0737
+
+%HID\Vid_045E&Pid_0745.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_0745&Mi_01&Col01
+
+%HID\Vid_045E&Pid_0746.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_0746&Mi_01&Col01
+
+%HID\Vid_045E&Pid_075C.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_075C&Col01
+
+%HID\Vid_045E&Pid_0748.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_0748&Mi_01&Col01
+
+%HID\Vid_045E&Pid_074F.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_074F&Col02
+ 
+%HID\Vid_045E&Pid_076C.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_076C&Col02
+
+%HID\Vid_045E&Pid_0773.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_0773&Mi_01&Col01
+
+%HID\Vid_045E&Pid_0774.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_0774&Mi_01&Col01
+
+%HID\Vid_045E&Pid_077A.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_077A&Col02
+%HID\Vid_045E&Pid_077B.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_077B&Col02
+%HID\Vid_045E&Pid_077D.DeviceDesc%=HID_Filtr_Inst, HID\Vid_045E&Pid_077D&Col02
+ 
+; ---------------------- HID Mouse (x64)
+
+[HID_Filtr_Inst.NTamd64]
+Include=msmouse.inf
+Needs=HID_Mouse_Inst.NT
+CopyFiles = Point64_CopyFiles
+
+[HID_Filtr_Inst.NTamd64.Services]
+AddService = Point64,, point64_Service_Inst
+Include=msmouse.inf
+Needs=HID_Mouse_Inst.NT.Services
+
+[HID_Filtr_Inst.NTamd64.HW]
+Include = msmouse.inf
+AddReg = HID_Mouse_Inst.AddReg.NT
+AddReg = Point64_Inst.HW.AddReg
+
+[HID_Filtr_Inst.NTamd64.CoInstallers]
+CopyFiles = Point64_CoInstaller_CopyFiles
+AddReg = Point64_CoInstaller_AddReg
+
+[HID_Filtr_Inst.NTamd64.Wdf]
+KmdfService = Point64, HID_Filtr_Inst_wdfsect
+
+; ---------------------- HID Mouse Clear VScroll Reg Setting(x64)
+
+[HID_Filtr_Inst_NoScrollSet.NTamd64]
+Include=msmouse.inf
+Needs=HID_Mouse_Inst.NT
+CopyFiles = Point64_CopyFiles
+
+[HID_Filtr_Inst_NoScrollSet.NTamd64.Services]
+AddService = Point64,, point64_Service_Inst
+Include=msmouse.inf
+Needs=HID_Mouse_Inst.NT.Services
+
+[HID_Filtr_Inst_NoScrollSet.NTamd64.HW]
+
+Include = msmouse.inf
+AddReg = HID_Mouse_Inst.AddReg.NT
+AddReg = Point64_Inst_NoScrollSet.HW.AddReg
+
+[HID_Filtr_Inst_NoScrollSet.NTamd64.CoInstallers]
+CopyFiles = Point64_CoInstaller_CopyFiles
+AddReg = Point64_CoInstaller_AddReg
+
+[HID_Filtr_Inst_NoScrollSet.NTamd64.Wdf]
+KmdfService = Point64, HID_Filtr_Inst_wdfsect
+
+; -----------------common--------------
+
+[Point64_CopyFiles]
+point64.sys
+
+[point64_Inst.HW.AddReg]                                        
+HKR,,"UpperFilters",0x00010000,"Point64"
+HKR,,"VScrollHighResolutionDisable",0x00010001,1
+HKR,,"HScrollHighResolutionDisable",0x00010001,1
+
+[point64_Inst_NoScrollSet.HW.AddReg]                                        
+HKR,,"UpperFilters",0x00010000,"Point64"
+HKR,,"VScrollHighResolutionDisable",0x00010001,0
+
+[point64_Service_Inst]
+DisplayName    = %point64.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+LoadOrderGroup = Pointer Port
+ServiceBinary  = %12%\point64.sys
+
+[Point64_CoInstaller_CopyFiles]
+wdfcoinstaller01009.dll
+
+[Point64_CoInstaller_AddReg]
+HKR,,"CoInstallers32",0x00010000, "wdfcoinstaller01009.dll,WdfCoInstaller"
+
+[HID_Filtr_Inst_wdfsect]
+KmdfLibraryVersion = 1.9
+
+[Strings]
+
+Provider          = "Microsoft"
+Microsoft         = "Microsoft"
+IPOINTCD          = "Microsoft IntelliPoint CD"
+DeviceDesc        = "Microsoft Mouse IntelliPoint Driver"
+point64.SvcDesc	  = "Microsoft IntelliPoint Filter Driver"
+
+ 
+HID\VID_045E&PID_0009.DeviceDesc="Microsoft USB IntelliMouse (IntelliPoint)"
+HID\VID_045E&PID_0023.DeviceDesc="Microsoft USB Trackball Optical (IntelliPoint)"
+HID\VID_045E&PID_0024.DeviceDesc="Microsoft USB Trackball Explorer (IntelliPoint)"
+HID\VID_045E&PID_0039.DeviceDesc="Microsoft USB IntelliMouse Optical (IntelliPoint)"
+HID\VID_045E&PID_0040.DeviceDesc="Microsoft USB Wheel Mouse Optical (IntelliPoint)"
+HID\VID_045E&PID_0047.DeviceDesc="Microsoft USB IntelliMouse Explorer 3.0 (IntelliPoint)"
+HID\VID_045E&PID_0053.DeviceDesc="Microsoft USB Optical Mouse (IntelliPoint)"
+
+HID\VID_045E&PID_007D.DeviceDesc="Microsoft USB Notebook/Mobile Optical Mouse (IntelliPoint)"
+
+HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0001045e_PID&007c&Col01.DeviceDesc="Microsoft Wireless IntelliMouse Explorer for Bluetooth (IntelliPoint)"
+
+HID\VID_045E&PID_0083.DeviceDesc="Microsoft USB Basic Optical Mouse (IntelliPoint)"
+HID\VID_045E&PID_0084.DeviceDesc="Microsoft USB Basic Optical Mouse (IntelliPoint)"
+HID\VID_045E&PID_00CB.DeviceDesc="Microsoft USB Basic Optical Mouse v2.0 (IntelliPoint)"
+
+HID\VID_045E&PID_008A.DeviceDesc="Microsoft USB Dual Receiver Wireless Mouse (IntelliPoint)"
+HID\VID_045E&PID_008B.DeviceDesc="Microsoft USB Dual Receiver Wireless Mouse (IntelliPoint)"
+HID\VID_045E&PID_008C.DeviceDesc="Microsoft USB Wireless Mouse (IntelliPoint)"
+
+HID\VID_045E&PID_0095.DeviceDesc="Microsoft USB IntelliMouse Explorer 4.0 (IntelliPoint)"
+
+HID\vid_045e&pid_0098&Col01.DeviceDesc="Microsoft IntelliMouse Explorer for Bluetooth (IntelliPoint)"
+HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0098&Col01.DeviceDesc="Microsoft IntelliMouse Explorer for Bluetooth (IntelliPoint)"
+
+HID\VID_045E&PID_009D.DeviceDesc="Microsoft USB Dual Receiver Wireless Mouse (IntelliPoint)"
+HID\VID_045E&PID_009E.DeviceDesc="Microsoft USB Dual Receiver Wireless Mouse (IntelliPoint)"
+HID\VID_045E&PID_009F.DeviceDesc="Microsoft USB Wireless Mouse (IntelliPoint)"
+
+HID\VID_045E&PID_00A4.DeviceDesc="Microsoft USB Compact Optical Mouse (IntelliPoint)"
+
+HID\VID_045E&PID_00B8.DeviceDesc="Microsoft USB Optical Mouse by Starck (IntelliPoint)"
+
+HID\VID_045E&PID_00B9.DeviceDesc="Microsoft USB Wireless Mouse (IntelliPoint)"
+
+HID\Vid_045E&Pid_00D1.DeviceDesc="Microsoft USB Comfort Optical Mouse 3000 (IntelliPoint)"
+HID\Vid_045E&Pid_00D2.DeviceDesc="Microsoft USB Notebook Optical Mouse 3000 (IntelliPoint)"
+HID\Vid_045E&Pid_00E1.DeviceDesc="Microsoft USB Wireless Mouse (IntelliPoint)"
+
+HID\Vid_045E&Pid_00E3.DeviceDesc="Microsoft USB Dual Receiver Wireless Mouse (IntelliPoint)"
+HID\Vid_045E&Pid_00E4.DeviceDesc="Microsoft USB Dual Receiver Wireless Mouse (IntelliPoint)"
+HID\Vid_045E&Pid_00E5.DeviceDesc="Microsoft USB Wireless Mouse (IntelliPoint)"
+
+HID\Vid_045E&Pid_00F0.DeviceDesc="Microsoft USB Laser Mouse 6000 (IntelliPoint)"
+
+HID\Vid_045E&Pid_00F1.DeviceDesc="Microsoft USB Dual Receiver Wireless Mouse (IntelliPoint)"
+HID\Vid_045E&Pid_00F2.DeviceDesc="Microsoft USB Dual Receiver Wireless Mouse (IntelliPoint)"
+
+HID\Vid_045E&Pid_00F6.DeviceDesc="Microsoft USB Comfort Optical Mouse 1000 (IntelliPoint)"
+
+HID\Vid_045E&Pid_00F9.DeviceDesc="Microsoft USB Dual Receiver Wireless Mouse (IntelliPoint)"
+HID\Vid_045E&Pid_00FA.DeviceDesc="Microsoft USB Dual Receiver Wireless Mouse (IntelliPoint)"
+
+HID\vid_045e&PID_0701&Col02.DeviceDesc="Microsoft Wireless Notebook Presenter Mouse 8000 (IntelliPoint)"
+HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0701&Col02.DeviceDesc="Microsoft Wireless Notebook Presenter Mouse 8000 (IntelliPoint)"
+HID\Vid_045E&Pid_0713.DeviceDesc="Microsoft Wireless Notebook Presenter Mouse 8000 (IntelliPoint)"
+
+HID\vid_045e&pid_0702&Col02.DeviceDesc="Microsoft Wireless Laser Mouse 8000 (IntelliPoint)"
+HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0702&Col02.DeviceDesc="Microsoft Wireless Laser Mouse 8000 (IntelliPoint)"
+HID\Vid_045E&Pid_0714.DeviceDesc="Microsoft Wireless Laser Mouse 8000 (IntelliPoint)"
+
+HID\Vid_045E&Pid_071D.DeviceDesc="Microsoft USB Dual Receiver Wireless Mouse (IntelliPoint)"
+HID\Vid_045E&Pid_071E.DeviceDesc="Microsoft USB Dual Receiver Wireless Mouse (IntelliPoint)"
+
+HID\Vid_045E&Pid_071F.DeviceDesc="Microsoft USB Wireless Mouse (IntelliPoint)"
+
+HID\VID_045E&PID_0724.DeviceDesc="Microsoft SideWinder Mouse (IntelliPoint)"
+
+HID\vid_045e&pid_0726&Col02.DeviceDesc="Microsoft Mobile Memory Mouse 8000 (IntelliPoint)"
+HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002045e_PID&0726&Col02.DeviceDesc="Microsoft Mobile Memory Mouse 8000 (IntelliPoint)"
+HID\Vid_045E&Pid_0727.DeviceDesc="Microsoft Mobile Memory Mouse 8000 (IntelliPoint)"
+
+HID\VID_045E&PID_0736.DeviceDesc="Microsoft SideWinder X5 Mouse (IntelliPoint)"
+
+HID\VID_045E&PID_0737.DeviceDesc="Microsoft Compact Optical Mouse 500 v2.0 (IntelliPoint)"
+
+HID\VID_045E&PID_0745.DeviceDesc="Microsoft USB Dual Receiver Wireless Mouse (IntelliPoint)"
+
+HID\VID_045E&PID_0746.DeviceDesc="Microsoft USB Dual Receiver Wireless Mouse (IntelliPoint)"
+
+HID\VID_045E&PID_075C.DeviceDesc="Microsoft SideWinder X3 Mouse (IntelliPoint)"
+
+HID\VID_045E&PID_0748.DeviceDesc="Microsoft USB Wireless Mouse (IntelliPoint)"
+
+HID\VID_045E&PID_074F.DeviceDesc="Microsoft Arc Mouse (IntelliPoint)"
+
+HID\Vid_045E&Pid_076C.DeviceDesc="Microsoft Comfort Mouse 4500 (IntelliPoint)"
+
+HID\VID_045E&PID_0773.DeviceDesc="Microsoft USB Dual Receiver Wireless Mouse (IntelliPoint)"
+
+HID\VID_045E&PID_0774.DeviceDesc="Microsoft USB Dual Receiver Wireless Mouse (IntelliPoint)"
+
+HID\Vid_045E&Pid_077A.DeviceDesc="Microsoft Express Mouse (IntelliPoint)"
+
+HID\Vid_045E&Pid_077B.DeviceDesc="Microsoft Comfort Mouse 3000 (IntelliPoint)"
+
+HID\Vid_045E&Pid_077D.DeviceDesc="Microsoft Comfort Mouse 6000 (IntelliPoint)"
