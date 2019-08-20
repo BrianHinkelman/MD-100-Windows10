@@ -1,6 +1,6 @@
-md c:\Data
-copy e:\labfiles\Support\Data c:\Data
-md c:\Misc
-copy e:\labfiles\Mod11\Misc c:\Misc
-md c:\Reports
-copy e:\labfiles\Mod11\Reports c:\Reports
+md e:\Data
+copy \\lon-dc1\e$\labfiles\Support\Data e:\Data
+md e:\Misc
+copy \\lon-dc1\e$\labfiles\Support\Misc e:\Misc
+md e:\Reports
+copy \\lon-dc1\e$\labfiles\Support\Reports e:\MiReportssc
