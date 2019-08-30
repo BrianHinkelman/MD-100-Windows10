@@ -1,0 +1,14 @@
+<migration urlid="http://www.microsoft.com/migration/1.0/migxmlext/test">
+<component type="Documents" context="System">
+  <displayName>Component to migrate all Engineering Drafts Documents including subfolders</displayName>
+  <role role="Data">
+    <rules>
+      <include>
+        <objectSet>
+          <pattern type="File">C:\<Foldername>\* [*]</pattern>
+        </objectSet>
+      </include>
+    </rules>
+  </role>
+</component>
+</migration>
