@@ -5,8 +5,6 @@
 In this lab you will learn how to modify the settings for the User Account
 Control.
 
- 
-
 ### Scenario
 
 You are interested in configuring UAC so that when the UAC dialog box prompts a

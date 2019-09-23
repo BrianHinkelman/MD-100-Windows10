@@ -1,9 +1,7 @@
 # Practice Lab: In-place upgrade of Windows 7 to Windows 10 
 
 ## Summary
-In this lab, you will:
-	- Verify the client meets upgrade requirements.
-	- Performed an in-place upgrade of Windows 7 to Windows 10.
+In this lab, verify the client meets upgrade requirements and performed an in-place upgrade of Windows 7 to Windows 10.
 
 
 ### Scenario

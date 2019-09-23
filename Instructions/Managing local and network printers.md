@@ -1,7 +1,4 @@
-Practice Lab: Managing local and network printers
-=================================================
-
- 
+# Practice Lab: Managing local and network printers
 
 ## Summary
 

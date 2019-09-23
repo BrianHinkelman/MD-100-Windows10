@@ -1,26 +1,17 @@
-Practice Lab: Configuring and Testing Name Resolution
-=====================================================
+# Practice Lab: Configuring and Testing Name Resolution
 
- 
-
-Summary
--------
+## Summary
 
 Name resolution is a critical part of your network infrastructure. You must
 ensure that you have correctly configured the Windows 10 devices for name
 resolution. Then you must test the name resolution process.
 
- 
-
-*Dependency Notice: Task 5 of this lab must be performed to be able to complete
-an upcoming lab,* Configuring Internet Explorer Enterprise Mode.
+_Dependency Notice: Task 5 of this lab must be performed to be able to complete
+an upcoming lab,*_ Configuring Internet Explorer Enterprise Mode.
 
  
 
-Exercise 1: Testing Name Resolution
------------------------------------
-
- 
+## Exercise 1: Testing Name Resolution
 
 ### Scenario
 
@@ -30,9 +21,6 @@ intranet.adatum.com, which are both hosted on LON-CL1. You presume an issue with
 the name resolution and conduct some testing, including checking the DNS
 settings, clearing the DNS cache, and testing connections to LON-DC1.
 
- 
-
- 
 
 ### Task 1: Verify current DNS settings on the client
 
@@ -96,24 +84,16 @@ settings, clearing the DNS cache, and testing connections to LON-DC1.
 **Results**: After completing this exercise verified the DNS configuration of a
 Windows device and tested name resolution.
 
- 
 
- 
-
-Exercise 2: Testing Name Resolution
------------------------------------
-
- 
+## Exercise 2: Testing Name Resolution
 
 ### Scenario
 
 The user reports that LON-CL1 cannot get to
-[www.adatum.com](http://www.adatum.com) or intranet.adatum.com. Your manager has
+www.adatum.com or intranet.adatum.com. Your manager has
 instructed you to add www to the hosts file with the lon-dc1 IP address, add
 alias DNS record for intranet.adatum.com pointing to LON-DC1, and verify
 functionality.
-
- 
 
  
 

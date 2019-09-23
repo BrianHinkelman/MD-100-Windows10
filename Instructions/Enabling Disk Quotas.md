@@ -1,15 +1,9 @@
-Practice Lab: Enabling Disk Quotas
-==================================
+# Practice Lab: Enabling Disk Quotas
 
- 
-
-Summary
--------
+## Summary
 
 To prevent specific users from using to much disk space disk quota can be
 established.
-
- 
 
 ### Scenario
 
@@ -19,7 +13,6 @@ their files. You decide to create disk quotas of 500 MB with a warning set at
 250 MB, and ask Ada Russell to test if the configuration is correct.
 
  
-
 ### Task 1: Create disk quotas
 
 1.  Sign in to **LON-CL1** as **Adatum\\Administrator** with the password

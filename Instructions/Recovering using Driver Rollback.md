@@ -1,15 +1,9 @@
-Practice Lab: Recovering using Driver Rollback
-==============================================
+# Practice Lab: Recovering using Driver Rollback
 
- 
-
-Summary
--------
+## Summary
 
 In this exercise you will learn how to do a Driver Rollback and Safe Mode to
 repair a driver when the system is unusable.
-
- 
 
 ### Scenario
 
@@ -17,13 +11,6 @@ You've been given a new keyboard driver to test on LON-CL1. As there is concern
 it may fail, it's recommend to enable Picture password in case the keyboard is
 unresponsive. In the even this happens, you'll need to use Safe Mode to correct
 the issue.
-
- 
-
-Exercise 1: Recovering using Driver Rollback
---------------------------------------------
-
- 
 
 ### Task 1: Configure a picture password as a sign-in option
 

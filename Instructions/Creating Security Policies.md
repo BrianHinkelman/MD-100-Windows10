@@ -16,7 +16,7 @@ policies in your active directory forest, which require longer passwords and
 account lockouts if users incorrectly enter their password more than twice in
 succession.
 
- 
+
 
 ### Task 1: Configure password and account options
 
