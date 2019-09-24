@@ -122,10 +122,7 @@ obtained DHCP lease on the DHCP server LON-DC1.
 
  
 
-Exercise 2: Configuring Automatic IPv4 Settings
------------------------------------------------
-
- 
+## Exercise 2: Configuring Automatic IPv4 Settings
 
 ### Task 1: Reconfigure the IPv4 settings
 
